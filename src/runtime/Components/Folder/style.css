@@ -1,0 +1,28 @@
+.accordion-Table-container {
+    background-color: #e7e3e3;
+}
+
+.folder-button {
+  background-color: #ebebeb;
+  font-size: 1rem;
+  font-weight: 500;
+  /* font-family: inherit; */
+  color: black;
+}
+
+.folder-button:hover {
+  background-color: #686868;
+  color: #ffffff;
+}
+
+.select-folder-checkbox, .select-file-checkbox {
+  float: left;
+}
+
+.folder-button, .file-button {
+  width: 100%;
+}
+
+.folder-Icon, .file-Icon {
+  float: left;
+}

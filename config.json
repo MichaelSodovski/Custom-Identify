@@ -1,0 +1,44 @@
+{
+    "AddFolderDetailsUrl": "https://localhost:44388/api/Folders/AddFolderDetails",
+    "GetFolderNamesUrl": "https://localhost:44388/api/Folders/GetFolderNames/",
+    "DeleteFoldersUrl":"https://localhost:44388/api/Folders/DeleteFolders",
+    "GetFileNamesByFolderNames": "https://localhost:44388/api/Files/GetFileNamesByFolderNames",
+    "AddFileUrl": "https://localhost:44388/api/Files/AddFile",
+    "DeleteFilesUrl": "https://localhost:44388/api/Files/DeleteFiles",
+    "GetFile": "https://localhost:44388/api/Files/GetFile",
+    "GetUserPermissions": "https://localhost:44388/api/Auth/GetUserPermissions",
+    "FileSize": 50,
+    "QueryDistance": 500,
+    "QueryUnits": "meters",
+    "QuerySpatialRelationship": "intersects",
+    "QueryOutFields": ["*"],
+    "QueryReturnGeometry": true,
+    "Credentials": {
+        "INCLUDE": "include",
+        "OMIT": "omit",
+        "SAME_ORIGIN": "same-origin" 
+    },
+    "NotificationDuration": 100000,
+    "FileSizeNotification": "יש לעלות קובץ עד 50 מגה בייט",
+    "FolderAlreadyExistsNotification": "שגיאה: תיקייה עם שם זהה כבר קיימת",
+    "SelectFolderNotification": "על מנת להעלות קובץ נא לבחור תיקייה או תיקיות",
+    "FileAlreadyExistsNotification": "קובץ עם שם זהה כבר קיים בתיקייה זו נא להעלות קובץ בעל שם אחר.",
+    "UserIsNotFouldNotification": "משתמש לא נמצא",
+    "ErrorInpuNotificationt":"שגיאה: שגיאה בעת קבלת הקלט.",
+    "SucessfullyAddedFolder": "תיקייה נוספה בהצלחה",
+    "SucessfullDeleteFolder": "תיקיות נמחקו בהצלחה.",
+    "ErrorDeleteFolders": "אירעה שגיאה בעת מחיקת תיקיות.",
+    "ErrorCreatingFolder": "אירעה שגיאה.",
+    "PleaseInputFolderName": "נא להזין שם לתיקייה.",
+    "UnsupportedFileType": "סוג הקובץ לא נתמך.",
+    "FileAddedSuccessfully": "קובץ עלה בהצלחה.",
+    "ErrorDeletingFiles": "אירעה שגיאה בעת מחיקת קבצים",
+    "SeccessDeletingFiles": "הקבצים נמחקו בהצלחה",
+    "NoFeatureFound": "הפריט הנבחר מהשכבה לא מוכר במערכת.",
+    "PlaceholderFolderName": "הזן שם לתיקייה"
+}
+
+
+
+
+

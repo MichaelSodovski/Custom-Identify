@@ -1,0 +1,30 @@
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 12px;
+  left: 12px;
+  background-color: #dfdbdb;
+  color: black;
+  padding: 16px;
+  font-size: 13px;
+  transition: transform 10s, opacity 1s;
+  z-index: 1000;
+  opacity: 0;
+  height: 30px;
+  border: 1px solid rgb(168, 168, 168);
+  width: auto;
+  transform: translateX(200px);
+}
+
+.slide-in {
+  transition: transform 10s, opacity 1s;
+  opacity: 0.8;
+  transform: translateX(135px);
+}
+
+.slide-out {
+  opacity: 0;
+  transform: translateX(0px);
+}
